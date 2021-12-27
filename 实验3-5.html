@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy3-5</title>
+<style type="text/css">
+	form{
+		border: dotted #EAE787;
+		background-color:#D9A857;
+		text-align: center;
+	}
+	.icon-user{
+		position: absolute;
+		left:  0; z-index: 5;  margin-top: 8px;  
+		background-image: url(username.png);
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		width: 30px;
+		height: 30px;
+		left: 800px;
+		top: 100px;
+	}
+	.icon-pass{
+		position: absolute;
+		left: 0; z-index: 5;  margin-top: 8px;
+		background-position: 0px 0px;
+		width: 30px;
+		height: 30px;
+		left: 800px;
+		top: 100px;
+	}
+	i{
+		background-position: 0px; 0px;
+	}
+	</style>
+</head>
+
+<body>
+	<form action="" method="post" name="登录名" >
+		<h1>用户登录</h1>
+		<hr/>
+		<p>用户名：
+			<input type="text" name="userName" maxlength="10">		
+		</p>
+		<p>密  码：
+			<input type="password" name="pass" maxlength="30">		
+		</p>
+		<p>
+			<input type="submit" name="signIn" value="登录">	
+			<input type="submit" name="register" value="注册">
+		</p>
+	</form>
+</body>
+</html>
